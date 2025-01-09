@@ -16,8 +16,14 @@ h3 {
 
 }
 
-.recipe-list {
+div.container {
+    text-align: center;
+}
+
+ul.recipe-list {
     font-size: 20px;
     color: white;
+    display: inline-block;
+    text-align: left;
 }
 
