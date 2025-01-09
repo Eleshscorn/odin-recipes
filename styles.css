@@ -1,15 +1,23 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(162, 194, 216);
+}
+
+h3 {
+    color: white;
+    text-shadow: rgb(0, 0, 0) 2px 0 10px;
 }
 
 .header {
-    background-color: rgb(74, 165, 74);
     color: white;
     text-align: center;
     font-size: 50px;
+    text-shadow: rgb(0, 0, 0) 2px 0 10px;
+
 }
 
 .recipe-list {
     font-size: 20px;
-    text-align: center;
+    color: white;
 }
+
