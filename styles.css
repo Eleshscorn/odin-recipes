@@ -22,8 +22,11 @@ div.container {
 
 ul.recipe-list {
     font-size: 20px;
-    color: white;
+    width: 400px;
+    border: 4px solid rgb(0, 99, 192);
+    background-color: white;
     display: inline-block;
-    text-align: left;
+    text-align: left; 
+    margin: 10px auto;
 }
 
