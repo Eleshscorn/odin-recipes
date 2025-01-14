@@ -4,19 +4,35 @@ through TOP curriculm, I am going to just use one styles.css file.
 I would assume with larger projects multiple .css files would be
 required*/
 
-body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(178, 172, 136);
-    width: 600px;
-    margin: 0 auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
 }
 
-h3 {
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 210, 128);
+    width: 600px;
+    margin: 40px auto;
+}
+
+.contents {
+    width: 600px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+}
+
+/*h3 {
     color: white;
     text-shadow: rgb(0, 0, 0) 2px 0 10px;
     text-align: center;
 }
-
+*/
 .header {
     color: white;
     text-align: center;
@@ -36,6 +52,11 @@ h3 {
     background-color: rgb(144, 178, 136);
     text-align: left; 
     margin: 10px auto;
+    list-style-type: none;
+}
+
+.recipe-list li {
+    margin-bottom: 5px;
 }
 
 .center-image {
